@@ -30,7 +30,7 @@ end_time = 20
 
 while True:
 	if datetime(current_year,current_month,current_day,end_time) > datetime.now() > datetime(current_year,current_month,current_day,start_time):
-		##if the current time is between the start time and end time then add them to the redirect list
+		##if the current time is between the start time and end time then add websites to the redirect list
 		
 		try: 
 			print("running website blocker")
